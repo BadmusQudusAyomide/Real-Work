@@ -1,0 +1,375 @@
+.cover {
+  background-color: #299d7a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cover .div {
+  background-color: #299d7a;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.cover .overlap {
+  position: absolute;
+  width: 1141px;
+  height: 1195px;
+  top: 114px;
+  left: 870px;
+}
+
+.cover .glow {
+  position: absolute;
+  width: 1141px;
+  height: 1141px;
+  top: 37px;
+  left: 0;
+  background-color: #8ed4bf99;
+  border-radius: 570.5px;
+  filter: blur(500px);
+}
+
+.cover .screens {
+  position: absolute;
+  width: 866px;
+  height: 1195px;
+  top: 0;
+  left: 40px;
+}
+
+.cover .screen {
+  top: 0;
+  left: 0;
+  background-image: url(./img/image-5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  width: 393px;
+  height: 852px;
+}
+
+.cover .iphone-pro-mockup {
+  position: absolute;
+  width: 473px;
+  height: 932px;
+  top: -40px;
+  left: -40px;
+  object-fit: cover;
+}
+
+.cover .overlap-group-wrapper {
+  top: 256px;
+  left: 473px;
+  position: absolute;
+  width: 393px;
+  height: 852px;
+}
+
+.cover .overlap-group {
+  position: relative;
+  width: 473px;
+  height: 750px;
+  top: -40px;
+  left: -40px;
+}
+
+.cover .image {
+  position: absolute;
+  width: 393px;
+  height: 710px;
+  top: 40px;
+  left: 40px;
+  object-fit: cover;
+}
+
+.cover .img {
+  position: absolute;
+  width: 473px;
+  height: 750px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.cover .text {
+  display: flex;
+  flex-direction: column;
+  width: 593px;
+  align-items: flex-start;
+  gap: 60px;
+  position: absolute;
+  top: 110px;
+  left: 140px;
+}
+
+.cover .app-icon {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 21px 20px 23px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primitive-color-alpha-n04-10);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.cover .bkg {
+  position: absolute;
+  width: 112px;
+  height: 114px;
+  top: 43px;
+  left: 45px;
+}
+
+.cover .union {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: -3px;
+  left: -2px;
+}
+
+.cover .ico-logo {
+  position: relative;
+  width: 156px;
+  height: 156px;
+}
+
+.cover .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.cover .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--primitive-color-n100);
+  font-size: 120px;
+  letter-spacing: -4.8px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 8px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #0a0a0a1a;
+  border-radius: 16px;
+}
+
+.cover .text-wrapper-2 {
+  margin-top: -1px;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.cover .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cover .version {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff1a;
+  border-radius: 50px;
+}
+
+.cover .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.63px;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #decf48;
+  border-radius: 50px;
+}
+
+.cover .text-wrapper-4 {
+  margin-top: -0.63px;
+  color: #00000099;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .feat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  align-self: stretch;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cover .div-2 {
+  display: inline-flex;
+  gap: 12px;
+  padding: 14px 24px;
+  background-color: #ffffff;
+  border-radius: 29px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cover .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.63px;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--primitive-color-alpha-n13-80);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.cover .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.63px;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--primitive-color-alpha-n13-80);
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .var {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.cover .union-2 {
+  position: absolute;
+  width: 26px;
+  height: 30px;
+  top: 0;
+  left: 2px;
+}
+
+.cover .element-editable-screens {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.63px;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 400;
+  color: var(--primitive-color-alpha-n13-80);
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cover .span {
+  font-weight: 700;
+  letter-spacing: -0.25px;
+}
+
+.cover .text-wrapper-7 {
+  font-family: "SF Pro Text-Regular", Helvetica;
+  letter-spacing: -0.25px;
+}
+
+.cover .screens-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 29px;
+}
+
+.cover .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.63px;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-weight: 400;
+  color: #ffffffcc;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: normal;
+  white-space: nowrap;
+}

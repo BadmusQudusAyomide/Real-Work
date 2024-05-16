@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+body{
+
+}
+.container{
+width: 1920px;
+height: 1080px;
+background: #2A9D7B;
+}
+.svg{
+    display: flex;
+padding: 21px 20px 23px 24px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 50px;
+background: var(--color-alpha-n-0410, rgba(10, 10, 10, 0.10));
+}

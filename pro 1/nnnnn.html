@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Effect</title>
+    <style>
+        /* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.glass-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adjust the layers */
+.layer1 {
+    z-index: 1;
+}
+
+.layer2 {
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+}
+
+.layer3 {
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+}
+
+     </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="glass-layer layer1"></div>
+        <div class="glass-layer layer2"></div>
+        <div class="glass-layer layer3"></div>
+    </div>
+    <script>
+// script.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    const layers = document.querySelectorAll('.glass-layer');
+    layers.forEach(layer => {
+        console.log(layer);
+        // Add any interactivity here
+    });
+});
+
+    </script>
+</body>
+</html>

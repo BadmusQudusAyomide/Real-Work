@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website with Animations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2em;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        section {
+            margin: 2em 0;
+            padding: 2em;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .gallery-container img {
+            max-width: 30%;
+            margin: 10px 0;
+            transition: transform 0.3s;
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 1em 0;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .menu-toggle.active+nav ul {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Responsive Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>This is a responsive webpage example with animations and color.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Information about me or the website.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Details about the services offered.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="https://via.placeholder.com/150" alt="Sample Image 1">
+                <img src="https://via.placeholder.com/150" alt="Sample Image 2">
+                <img src="https://via.placeholder.com/150" alt="Sample Image 3">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>How to reach out.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Responsive Website</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function () {
+                menuToggle.classList.toggle('active');
+                nav.classList.toggle('active');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

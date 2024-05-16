@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .neuron {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .neuron:hover {
+            background-image: linear-gradient(to bottom, #fff, #ccc);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .neuron:active {
+            background-image: linear-gradient(to bottom, #fff, #aaa);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="neuron">
+
+    </div>
+</body>
+
+</html>

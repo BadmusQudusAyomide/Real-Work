@@ -44,7 +44,7 @@
 .cover .screen {
   top: 0;
   left: 0;
-  background-image: url(./img/image-5.png);
+  background-image: url(image-5.png);
   background-size: cover;
   background-position: 50% 50%;
   position: absolute;
@@ -55,9 +55,9 @@
 .cover .iphone-pro-mockup {
   position: absolute;
   width: 473px;
-  height: 932px;
-  top: -40px;
-  left: -40px;
+  height: 970px;
+  top: -90px;
+  left: 5px;
   object-fit: cover;
 }
 
@@ -276,7 +276,7 @@
   display: inline-flex;
   gap: 12px;
   padding: 14px 24px;
-  background-color: #ffffff;
+  background-color: black;
   border-radius: 29px;
   align-items: flex-start;
   position: relative;

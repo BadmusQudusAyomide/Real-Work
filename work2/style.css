@@ -1,0 +1,53 @@
+
+nav{
+    width: 1920px;
+height: 68px;
+flex-shrink: 0;
+background: var(--Dark-Background-Dark, #141416);
+}
+.logo{
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: -8.492px;
+}
+.homepage{
+    color: var(--Surface-main, #FFF);
+display: inline-flex;
+padding: 17px 16px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+background: var(--Primary, #3772FF);
+
+}
+.inside{
+    display: inline-flex;
+align-items: center;
+gap: 32px;
+}
+.user{
+    border-radius: 80px;
+border: 1px solid var(--Surface-main, #FFF);
+width: 59px;
+height: 28px;
+flex-shrink: 0;
+}
+.hero{
+    width: 1920px;
+    height: 677px;
+    flex-shrink: 0;
+    background: var(--Surface, #F7F7F7);
+}
+.heroh2{
+color: #23262F;
+
+/* Headline 1 */
+font-family: "DM Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px; /* 112.5% */
+letter-spacing: -1.28px;
+}

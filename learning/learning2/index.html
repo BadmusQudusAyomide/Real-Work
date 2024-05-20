@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidenav">
+            <a href="#" onclick="showContent('home', this)">Home</a>
+            <a href="#" onclick="showContent('lesson1', this)">Lesson 1</a>
+            <a href="#" onclick="showContent('lesson2', this)">Lesson 2</a>
+            <a href="#" onclick="showContent('lesson3', this)">Lesson 3</a>
+        </div>
+        <div class="content">
+            <div id="home" class="content-item">
+                <h1>Welcome to the E-learning Platform</h1>
+                <p>This is the home page content.</p>
+            </div>
+            <div id="lesson1" class="content-item" style="display:none;">
+                <h1>Lesson 1: Introduction to HTML</h1>
+                <p>This is the content for Lesson 1.</p>
+            </div>
+            <div id="lesson2" class="content-item" style="display:none;">
+                <h1>Lesson 2: Introduction to CSS</h1>
+                <p>This is the content for Lesson 2.</p>
+            </div>
+            <div id="lesson3" class="content-item" style="display:none;">
+                <h1>Lesson 3: Introduction to JavaScript</h1>
+                <p>This is the content for Lesson 3.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

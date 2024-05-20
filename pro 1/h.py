@@ -27,4 +27,4 @@ def get_repo_size(username, repository):
         print(f'Error: Unable to get repository information. Status code: {response.status_code}')
 
 # Replace 'google' and 'material-design-icons' with the GitHub username and repository name
-get_repo_size('google', 'material-design-icons')
+get_repo_size('wesbos', 'JavaScript30')
